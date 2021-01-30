@@ -13,9 +13,13 @@
     "source"
   ],
   "author": "Eric Lee",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lceric/raw-edit-loader.git"
+  },
   "dependencies": {
     "loader-utils": "^2.0.0",
     "schema-utils": "^3.0.0"
-  },
-  "license": "ISC"
+  }
 }
