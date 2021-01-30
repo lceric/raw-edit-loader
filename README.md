@@ -3,7 +3,7 @@
 [![view on npm](http://img.shields.io/npm/v/raw-edit-loader.svg)](https://www.npmjs.com/package/raw-edit-loader)
 [![npm module downloads per month](http://img.shields.io/npm/dm/raw-edit-loader.svg)](https://www.npmjs.org/package/raw-edit-loader)
 
-A loader for webpack, **support modify source string**. Through the configuration of a series of properties, to modify the matching string
+A loader for webpack, **support modify source string**. Through the configuration of a series of properties, to modify the matching string.
 
 ## usage
 
