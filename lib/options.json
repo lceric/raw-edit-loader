@@ -7,7 +7,7 @@
       "description": "If the matching group is configured, the single mode property will be invalid"
     },
     "pathList": {
-      "instanceof": "array",
+      "type": "array",
       "description": "Matching file absolute path list. If pathReg configured, the property will be invalid.",
       "items": { "description": "File absolute path.", "type": "string" }
     },

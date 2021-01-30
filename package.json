@@ -1,6 +1,6 @@
 {
   "name": "raw-edit-loader",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "webpack raw edit loader, Modify the matching string",
   "main": "lib/index.js",
   "scripts": {
