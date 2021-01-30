@@ -1,6 +1,6 @@
 {
   "name": "raw-edit-loader",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A loader for webpack, support modify source string. Through the configuration of a series of properties, to modify the matching string",
   "main": "lib/index.js",
   "scripts": {
