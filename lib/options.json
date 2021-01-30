@@ -1,0 +1,32 @@
+{
+  "type": "object",
+  "title": "Raw Edit Loader options",
+  "properties": {
+    "group": {
+      "type": "array",
+      "description": "If the matching group is configured, the single mode property will be invalid"
+    },
+    "pathList": {
+      "instanceof": "array",
+      "description": "Matching file absolute path list. If pathReg configured, the property will be invalid.",
+      "items": { "description": "File absolute path.", "type": "string" }
+    },
+    "pathReg": {
+      "instanceof": "RegExp",
+      "description": "Matching file path regular expression. If pathList configured, the property will be invalid."
+    },
+    "replaceReg": {
+      "instanceof": "RegExp",
+      "description": "Match the source string regular expression and the hit fragment will be replaced."
+    },
+    "replacement": {
+      "description": "Match the source string regular expression and the hit fragment will be replaced.",
+      "anyOf": [{ "type": "string" }]
+    },
+    "done": {
+      "instanceof": "Function",
+      "description": "After the source operation is completed, the done method is called."
+    }
+  },
+  "additionalProperties": false
+}
