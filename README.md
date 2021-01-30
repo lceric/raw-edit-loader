@@ -7,7 +7,11 @@ A loader for webpack, **support modify source string**. Through the configuratio
 
 ## usage
 
-General configuration
+```bash
+npm i -D raw-edit-loader
+```
+
+General configuration:
 
 ```js
 // src/index.js
