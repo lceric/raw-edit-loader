@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "test": "webpack"
+    },
+    "keywords": [
+        "webpack",
+        "loader",
+        "edit",
+        "source"
+    ],
+    "author": "Eric Lee",
+    "devDependencies": {
+        "webpack": "^4.46.0",
+        "webpack-cli": "^4.6.0"
+    }
+}
