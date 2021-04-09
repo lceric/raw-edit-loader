@@ -11,13 +11,17 @@
       "description": "Matching file absolute path list. If pathReg configured, the property will be invalid.",
       "items": { "description": "File absolute path.", "type": "string" }
     },
+    "regMode": {
+      "type": "string",
+      "description": "Matching file path and the source string regular string expression mode. Default is 'g'"
+    },
     "pathReg": {
-      "instanceof": "RegExp",
-      "description": "Matching file path regular expression. If pathList configured, the property will be invalid."
+      "type": "string",
+      "description": "Matching file path regular string expression. If pathList configured, the property will be invalid."
     },
     "replaceReg": {
-      "instanceof": "RegExp",
-      "description": "Match the source string regular expression and the hit fragment will be replaced."
+      "type": "string",
+      "description": "Match the source string regular string expression and the hit fragment will be replaced."
     },
     "replacement": {
       "description": "Match the source string regular expression and the hit fragment will be replaced.",
